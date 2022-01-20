@@ -1,0 +1,98 @@
+/*{
+    border: solid 1px black;
+}
+*/
+
+
+/*PRINCIPIO!!!!*/
+header{
+    text-align: center;
+  }
+  /* menu nav*/
+  nav{
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  text-align: center;
+  }
+  nav ul{
+    text-decoration: none;
+    list-style: none;
+  }
+  
+  nav li{
+  display: inline;
+  margin-left: 15px;
+  }
+  
+  nav a:link {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  nav a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  nav a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #7ABA96;;
+  }
+  
+  /*PRINCIPIO!!!!*/
+section{
+    background: url('/imagenes/') no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: auto;
+    padding: 1%;
+}
+
+img .tacos{
+    display: inline-block;
+}
+
+.contenidos{
+    width: 30%;
+    display: inline-block;
+    text-align: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+  /*final*/
+  footer{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+  }
+  
+  footer p{
+    display: inline-block;
+    margin-left: 15px;
+  }
+  
+  footer a:link {
+    background-color: transparent;
+    text-decoration: none;
+    color: white;
+  }
+
+  footer a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  footer a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #7ABA96;;
+  }
